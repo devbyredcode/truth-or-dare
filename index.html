@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Items | Truth or Dare The Game</title>
+        <meta name="author" content="Ega Javier Harwenda">
+        <meta name="title" content="Redcode Webpack Starter Pack">
+        <meta name="description" content="Webpack Starter Pack by Redcode">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Redcode Starter Pack">
+        <meta name="theme-color" content="#42b549">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Start of Css -->
+        <link rel="stylesheet" href="./dist/css/main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- End of Css -->
+    </head>
+    <body>
+        <div class="site-wrapper">
+            <div class="site-wrapper__header">
+                <h1>PUNISHMENT</h1>
+            </div>
+            <div class="site-wrapper__item" id="punishmentItem">
+                
+            </div>
+            <div class="site-wrapper__action">
+                <button class="btn btn__shuffle btn--purple" id="btnShuffle">SHUFFLE</button>
+                <button class="btn btn__add btn--blue btn--round" data-toggle="modal" data-target="#modalAddItem">ADD</button>
+            </div>
+        </div>
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="modalAddItem">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <input class="form-control" type="text" value="" id="inputAddItem" placeholder="ex : do some magic...">
+                    <button class="btn btn-block btn-primary" id="btnAddItem">SAVE PUNISHMENT</button>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <!-- Start of Js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./dist/js/bundle.js"></script>
+    <!-- End of Js -->
+</html>
